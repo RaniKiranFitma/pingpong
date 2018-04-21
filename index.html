@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+<script src="script.js"> </script>
+<title>   Ping-Pong </title> 
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron id="ab">
+      <h1 class="text-center"><span>ping pong</span></h1>
+    </div>
+    <div class="container" id="ee">
+			  <div class="row">
+				<div class="col-md-4">
+				<!--about ping-pong-->
+				  <div class="abt" >
+					<h4> About PING-PONG</h4>
+					<h5>Created by:</h5>
+					<p>Rani_Kiran_Fatima</p>
+					<h5>GitHub:</h5>
+					<a href="https://github.com/RaniKiranFitma/pingpong">p!ng_p0ng</a></p>
+					<p><b>HTML, CSS,Java,</b>, please!</p>
+					
+					
+				  </div>
+        </div>
+        <div class="col-md-8">
+				  <div class="game">
+					<h2><b>Let's Play Game!!</b></h2>
+					</br>
+					<!--Rules_for_the_game-->
+					<h4>Rules</h4>
+					</br>
+					<p><b>PING-PONG will count up to your number from 1 with the following exceptions:</b></p>
+					<ol>
+					  <li>Numbers divisible by 3 become "ping"</li>
+					  <li>Numbers divisible by 5 become "pong"</li>
+					  <li>Numbers divisible by 15 become "pingpong"</li>
+					</ol>
+					</br>
+					<!--form-->
+					<form class = "form-inline" id="formInput">
+					  <div class="form-group">
+					  <!--Input_field_goes_here-->
+						<label for="numberEntry">Please enter your number here:</label><BR>
+						<input type="number" class="form-control" id="numberEntry">
+					  </div>
+					  <!--submit-button-->
+					  <button type="submit" class="btn">Ping-P0ng!!</button>
+					</form>
+					</div>
+					<!--result_display_field-->
+					<div class="container" id="out">
+					<ul class="output">
+					</ul>
+				  </div>
+        </div>
+      </div>
+    </div>
+    </div>
+ 
+</div>
+</body>
+</html>
