@@ -35,6 +35,6 @@ _HTML/CSS/Bootstrap/JavaScript/jQuery_
 
 ### License
 
-*[MIT License]()*
+*[MIT License](https://github.com/RaniKiranFitma/pingpong/blob/master/LICENSE)*
 
 Copyright (c) 2016 **_Rani_Kiran_Fatima_**
